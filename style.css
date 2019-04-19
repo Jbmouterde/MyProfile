@@ -1,0 +1,151 @@
+
+.contain {
+    border-radius : 5 px; 
+    width: 700px; 
+    margin : 40px auto; 
+    background-color: rgba(0,0,0,0.1); 
+    border : 1px solid white; 
+    /* height : 50vh;  */
+    text-align : center;
+	padding-bottom : 5px ;
+	/* float : left */
+}
+
+img{
+    border-radius:50%; 
+}
+
+
+
+/* navbar  */
+.title{
+    font-size: 50px;
+    color: white; 
+    margin: 0px; 
+    text-align : center; 
+    display : table-cell; 
+    vertical-align: middle;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+    margin: 0;
+    padding: 0; 
+	/* background: #222; */
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: black;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  font-size: 50px;
+  color: white; 
+  margin: 0px; 
+  text-align : center; 
+  display : table-cell; 
+  vertical-align: middle;
+}
+
+nav {
+  float: right;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+    text-decoration: none;
+  position: relative;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: grey;
+  text-decoration: none;
+
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+/* Game Section */
+.projects{
+    float : left ;
+    text-align: center; 
+    height : 15rem;
+    width : 33%;
+    border : solid 1px grey ;
+    opacity: 0.9;
+  filter: alpha(opacity=30); 
+  color : black ; 
+
+  
+}
+
+.projects .hoverition{
+    visibility: hidden;
+    
+}
+
+.projects:hover .hoverition{
+    visibility: visible;
+    color : black ; 
+    font-family: 'Work Sans', sans-serif;
+    margin-top : 10px 
+
+
+}
+
+.projects .initial {
+    visibility: visible;
+    color : black  ; 
+    font-family: 'Work Sans', sans-serif;
+    font-size : 20px ;
+    margin-top : 100px ;
+}
+
