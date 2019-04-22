@@ -28,6 +28,11 @@ img{
 
 }
 
+#aboutme > a{
+  text-decoration: none;
+  color : grey
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
