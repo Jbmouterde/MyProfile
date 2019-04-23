@@ -31,6 +31,12 @@
   
 }
 
+#work > i{
+  color : white;
+  margin-top :15px; 
+font-size : 50px ;
+}
+
 /* experience  */
 #experience >h2{
   text-decoration: underline
@@ -48,7 +54,12 @@
   font-size : 20px;
   transition: 0.2s;
 }
+#experience > i{
+  color : white;
+  margin-top :15px; 
+  font-size : 50px ;
 
+}
 
 /* hobbies */
 #hobbies >h2{
@@ -66,7 +77,13 @@
 #hobbies p{
   color : grey
 }
+#hobbies > i{
+  color : white; 
+  margin-top :15px; 
+  font-size : 50px ;
+}
 
+/* about m e */
 #aboutme > img{
   border-radius : 50%; 
   border: 5px solid grey;
@@ -75,7 +92,16 @@
 
 }
 
+#aboutme > a{
+  text-decoration: none;
+  color : grey
+}
 
+
+
+#aboutme > a > i{
+  color : red 
+}
 
 
 
@@ -92,14 +118,7 @@
 
 }
 
-#aboutme > a{
-  text-decoration: none;
-  color : grey
-}
 
-#aboutme > h1{
-  color : rgb(117, 57, 57);
-}
 
 body > div:nth-child(5) > h2{
   text-decoration: underline
