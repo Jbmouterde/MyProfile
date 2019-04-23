@@ -20,12 +20,9 @@
   color : grey
 }
 
-#work > ul{
-  list-style: none;
 
-}
 
-#work > ul:hover{
+#work > h3:hover{
   font-size : 20px;
  transition: 0.2s
   
@@ -42,15 +39,13 @@ font-size : 50px ;
   text-decoration: underline
 }
 
-#experience >ul{
-  list-style: none; 
-}
+
 #experience  p{
   color : grey
 
 }
 
-#experience > ul:hover{
+#experience > h3:hover{
   font-size : 20px;
   transition: 0.2s;
 }
@@ -66,13 +61,11 @@ font-size : 50px ;
   text-decoration: underline
 
 }
-#hobbies > ul:hover{
+#hobbies > h3:hover{
   font-size : 20px;
   transition: 0.2s;
 }
-#hobbies >ul{
-  list-style : none 
-}
+
 
 #hobbies p{
   color : grey
