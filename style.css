@@ -280,3 +280,29 @@ nav a:hover::before {
 text-decoration: none
 }
 
+/* responsive */
+
+@media (max-width: 960px) {
+  .contain {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .contain {
+    width: 500px;
+  }
+  nav {
+    display : none; 
+  }
+}
+@media (max-width: 540px) {
+  .contain {
+    width: 300px;
+  }
+  footer{
+    display : none ; 
+  }
+  nav {
+    display : none; 
+  }
+}
