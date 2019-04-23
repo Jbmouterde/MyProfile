@@ -48,6 +48,8 @@
   font-size : 20px;
   transition: 0.2s;
 }
+
+
 /* hobbies */
 #hobbies >h2{
   text-decoration: underline
@@ -68,6 +70,8 @@
 #aboutme > img{
   border-radius : 50%; 
 }
+
+
 
 
 
