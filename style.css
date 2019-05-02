@@ -317,10 +317,12 @@ text-decoration: none
     display : none; 
   }
 }
-/* .music {
+
+.music {
 text-align: center;
-background-color: yellow;
-} */
+background-color: black;
+}
+
 /* button */
 .btn-blue{
   background-color : #6D71DD; 
