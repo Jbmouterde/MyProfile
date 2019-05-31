@@ -9,9 +9,12 @@
     text-align : center;
 	padding-bottom : 5px ;
   /* float : left */
-  box-shadow: 0px 10px 10px rgba(0,0,0,0.7);
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
   /* cursor: url(./images/wagon.png), auto; */
 }
+
+
+
 /* work  */
 #work > h2{
   text-decoration: underline
@@ -77,7 +80,7 @@ font-size : 50px ;
   font-size : 50px ;
 }
 
-/* about m e */
+/* about me */
 #aboutme > img{
   border-radius : 50%; 
   border: 1px solid white;
@@ -201,42 +204,6 @@ nav a:hover::before {
   width: 100%;
 }
 
-/* Game Section */
-.projects{
-    float : left ;
-    text-align: center; 
-    height : 15rem;
-    width : 33%;
-    border : solid 1px grey ;
-    opacity: 0.9;
-  filter: alpha(opacity=30); 
-  color : black ; 
-
-  
-}
-
-.projects .hoverition{
-    visibility: hidden;
-    
-}
-
-.projects:hover .hoverition{
-    visibility: visible;
-    color : black ; 
-    font-family: 'Work Sans', sans-serif;
-    margin-top : 10px 
-
-
-}
-
-.projects .initial {
-    visibility: visible;
-    color : black  ; 
-    font-family: 'Work Sans', sans-serif;
-    font-size : 20px ;
-    margin-top : 100px ;
-}
-
 /* footer */
 #contact{
   background-color : black; 
@@ -272,7 +239,6 @@ nav a:hover::before {
 }
 
 .foot{
-  /* position:;   */
   padding-top: 130px
 }
 
