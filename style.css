@@ -16,69 +16,22 @@
 
 
 
-/* work  */
-#work > h2{
-  text-decoration: underline
-}
-#work p {
+/* style for all sub div  */
+
+.contain p {
   color : grey
 }
 
-
-
-
-#work > h3:hover{
+.contain > h3:hover{
   font-size : 20px;
- transition: 0.2s
+  transition: 0.2s
   
 }
 
-#work > i{
+.contain > i{
   color : white;
   margin-top :15px; 
 font-size : 50px ;
-}
-
-/* experience  */
-#experience >h2{
-  text-decoration: underline
-}
-
-
-#experience  p{
-  color : grey
-
-}
-
-#experience > h3:hover{
-  font-size : 20px;
-  transition: 0.2s;
-}
-#experience > i{
-  color : white;
-  margin-top :15px; 
-  font-size : 50px ;
-
-}
-
-/* hobbies */
-#hobbies >h2{
-  text-decoration: underline
-
-}
-#hobbies > h3:hover{
-  font-size : 20px;
-  transition: 0.2s;
-}
-
-
-#hobbies p{
-  color : grey
-}
-#hobbies > i{
-  color : white; 
-  margin-top :15px; 
-  font-size : 50px ;
 }
 
 /* about me */
@@ -101,10 +54,6 @@ font-size : 50px ;
   color : red 
 }
 
-
-
-
-
 /* navbar  */
 .title{
     font-size: 50px;
@@ -118,9 +67,6 @@ font-size : 50px ;
 
 
 
-body > div:nth-child(5) > h2{
-  text-decoration: underline
-}
 
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
@@ -243,9 +189,7 @@ nav a:hover::before {
   padding-top: 130px
 }
 
-#contact > div > div.foot > a{
-text-decoration: none
-}
+
 
 /* responsive */
 
@@ -295,4 +239,12 @@ background-color: black;
 #aboutme > button > a{
   text-decoration: none; 
   color : white
+}
+
+hr{
+  background-color : rgba(58, 83, 155, 1); 
+  height: 3px; 
+  margin-left : 100px; 
+  margin-right : 100px 
+
 }
